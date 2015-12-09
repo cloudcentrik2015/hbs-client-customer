@@ -1,4 +1,6 @@
 # hbs-client-customer
 # How to rum:
-# $ mvn clean
-# $ mvn package
+from the maven folder:
+- [x] mvn clean
+- [x] mvn package
+
