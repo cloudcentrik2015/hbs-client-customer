@@ -1,6 +1,7 @@
 # hbs-client-customer
 ### How to rum:
-from the maven folder:
-- [] mvn clean
-- [] mvn package
+Clone the repository to a local folder. From the local folder run the following maven command from commandline :
+- mvn clean
+- mvn package
+- java -jar target/
 
