@@ -1,2 +1,4 @@
-net/cloudcentrik/hbs/client/customer/IsmailTest.class
-net/cloudcentrik/hbs/client/customer/Main.class
+net\cloudcentrik\hbs\client\customer\Main.class
+net\cloudcentrik\hbs\client\customer\ShdTest.class
+net\cloudcentrik\hbs\client\customer\IsmailTest.class
+net\cloudcentrik\hbs\client\customer\ShdTest2.class

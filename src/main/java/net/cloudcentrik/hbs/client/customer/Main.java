@@ -14,6 +14,9 @@ public class Main {
         
         ShdTest shdtest = new ShdTest();
 	shdtest.test();
+	
+	ShdTest2 shdtest2 = new ShdTest2();
+	shdtest2.test();
     }
 }
 
