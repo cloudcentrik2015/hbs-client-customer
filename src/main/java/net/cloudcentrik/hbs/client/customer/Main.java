@@ -13,7 +13,7 @@ public class Main {
         ismailTest.test();
         
         ShdTest shdtest = new ShdTest();
-		  shdtest.test();
+	shdtest.test();
     }
 }
 
