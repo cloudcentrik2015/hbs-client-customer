@@ -11,6 +11,9 @@ public class Main {
         
         IsmailTest ismailTest=new IsmailTest();
         ismailTest.test();
+        
+        ShdTest shdtest = new ShdTest();
+		  shdtest.test();
     }
 }
 
