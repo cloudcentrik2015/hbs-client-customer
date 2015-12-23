@@ -5,18 +5,9 @@ package net.cloudcentrik.hbs.client.customer;
  *
  */
 public class Main {
-   
-    public static void main(String[] args){
-        System.out.println("hbs client customer module");
-        
-        IsmailTest ismailTest=new IsmailTest();
-        ismailTest.test();
-        
-        ShdTest shdtest = new ShdTest();
-	shdtest.test();
-	
-	ShdTest2 shdtest2 = new ShdTest2();
-	shdtest2.test();
-    }
-}
 
+	public static void main(String[] args) {
+		System.out.println("hbs client customer module");
+
+	}
+}
