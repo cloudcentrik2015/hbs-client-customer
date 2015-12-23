@@ -12,6 +12,7 @@ import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.SwingConstants;
@@ -46,7 +47,7 @@ public class CustomerMainView extends JFrame implements ActionListener{
 		table = new JTable(datos,columnas);
 		scrollPane = new JScrollPane(table);
 		scrollPane.setBounds(78, 116, 841, 337);
-		scrollPane.setVisible(false);
+		//scrollPane.setVisible(false);
 		getContentPane().setLayout(null);
 		
 		btnRegistrar = new JButton("Search");
@@ -101,8 +102,10 @@ public class CustomerMainView extends JFrame implements ActionListener{
 	public void actionPerformed(ActionEvent ev) {
 		if(ev.getSource().equals(btnRegistrar)){
 			
-			scrollPane.setVisible(true);
-			v.validate();
+			/*scrollPane.setVisible(true);
+			v.validate();*/
+			
+			JOptionPane.showMessageDialog (null, "Action not Yet Implemented", "Not Implemented", JOptionPane.WARNING_MESSAGE);
 			
 			
 		}
